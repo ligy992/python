@@ -1,4 +1,6 @@
 coding: utf8
+#coding=utf-8;
+# -*- coding:utf-8 -*- 
 print "您好";
 
 print '100+200=',100+200
