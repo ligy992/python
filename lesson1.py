@@ -61,3 +61,34 @@ if birth>2000:
 	print '00后'
 else:
 	print '00前'
+	
+	
+score={'sda':99,'djao':98,'csi':97}
+score.pop('sda')
+print score;
+
+
+score['fds']=91
+print score['fds'];
+
+
+s=set([1,2,3,4,5,6])
+s.add(7)
+s.remove(2)
+print s
+
+s=set([1,2,3,4,5,6])
+s2=set([1,2,3,8,9,10])
+print s&s2
+print s|s2
+
+a=['a','b','c']
+a.sort()
+print a
+
+
+a='abc'
+a.replace('a','A')
+b=a.replace('a','A')
+print a
+print b
