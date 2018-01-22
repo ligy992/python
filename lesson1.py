@@ -77,6 +77,7 @@ s.add(7)
 s.remove(2)
 print s
 
+
 s=set([1,2,3,4,5,6])
 s2=set([1,2,3,8,9,10])
 print s&s2
@@ -92,3 +93,43 @@ a.replace('a','A')
 b=a.replace('a','A')
 print a
 print b
+
+
+# coding=utf-8;
+# 函数形参
+def printMax(a,b):
+  if a>b:
+  	print a,'is maximum';
+  else:
+  	print b,'is maximum';
+
+printMax(3,4) 
+x=5
+y=7
+printMax(x,y);
+
+# 局部变量
+def func(x):
+	print 'x is',x
+	x=2
+	print "changed local x to",x
+
+x = 50
+func(x)
+print 'x is still',x
+
+# 全局变量
+def func():
+	global x
+	print 'x is',x
+	x=2
+	print 'changed local x to',x
+x=50
+func()
+print 'value of x is',x
+
+# 默认参数值
+def say(message,times=1):
+	print message * times
+say('hello')
+say('world',5)
