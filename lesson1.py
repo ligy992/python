@@ -133,3 +133,18 @@ def say(message,times=1):
 	print message * times
 say('hello')
 say('world',5)
+
+
+# 返回商和余数
+
+a=5
+b=2
+s=divmod (a,b)
+print s
+
+
+# 四舍五入
+a=1.234567
+b=2
+s=round(1.234567,2)
+print s
