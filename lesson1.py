@@ -148,3 +148,7 @@ a=1.234567
 b=2
 s=round(1.234567,2)
 print s
+
+# 圆周率模块调用
+import math;
+print math.pi
