@@ -152,3 +152,25 @@ print s
 # 圆周率模块调用
 import math;
 print math.pi
+
+
+"""请计算:19+2*4-8/2"""
+a=19+2*4-8/2
+print a
+
+dir(module)  # 可以通过它查看任何模块中所包含的工具。
+help (math pow)  # 查询模块中pow函数的使用说明，其中pow可换成任意一种函数类型
+
+lang='study python'
+print lang[0]
+print lang[1]
+print lang.index('p')
+print lang[2:6]
+print lang[1:]
+print lang[:]
+print lang[:5]
+
+
+str1='abc'
+str2='abcde'
+print str1+str2
