@@ -174,3 +174,56 @@ print lang[:5]
 str1='abc'
 str2='abcde'
 print str1+str2
+
+# 使用break语句
+s=1
+running = True
+while  running:
+	s=raw_input('enter somethong:')
+	if  s=='quit':
+		break
+	print 'length of thr string is',len(s)
+print'done'
+
+
+
+ number=23
+ guess = int(raw_input('please input number:'))
+ if guess == number:
+ 	print 'Congratulations, you guessed it.' 
+ elif guess < number:
+ 	print 'No, it is a little higher than that'
+ else :
+ 	print 'No, it is a little lower than that'
+
+ print 'Done'
+
+
+# 使用continue语句，continue语句被用来告诉Python跳过当前循环块中的剩余语句，然后 继续 进行下一轮循环。
+s=1
+running = True
+while  running:
+	s=raw_input('enter somethong:')
+	if  s=='quit':
+		break
+	if len(s)<3:
+		print'input is of sufficient length'
+
+
+# 占位符
+a="%d years" % 15
+print a
+
+# split将字符串根据某个分割符进行分割
+a="i love you"
+print a.split(" ")
+
+
+# S.strip() 去掉字符串的左右空格
+# S.lstrip() 去掉字符串的左边空格
+# S.rstrip() 去掉字符串的右边空格
+a=' hello ' 
+print a.strip()
+print a.lstrip()
+print a.rstrip()
+
