@@ -227,3 +227,24 @@ print a.strip()
 print a.lstrip()
 print a.rstrip()
 
+
+def maximum(x,y):
+  if x>y:
+	return x
+  else:
+	return y
+
+print maximum(2,3);
+
+
+def printmax(x,y):
+	'''prints the maximum of two mumber.
+	the two values must be intehers.'''
+	x=int(x)
+	y=int(y)
+	if x>y:
+		print x,'is maximum'
+	else:
+		print y,'is maximum'
+printmax(3,5)
+print printmax.__doc__ 
