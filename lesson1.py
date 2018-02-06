@@ -248,3 +248,15 @@ def printmax(x,y):
 		print y,'is maximum'
 printmax(3,5)
 print printmax.__doc__ 
+
+
+# 模块引用
+#!/usr/bin/python
+# Filename: using_sys.py
+import sys
+
+print 'The command line arguments are:'
+for i in sys.argv:
+    print i
+
+print '\n\nThe PYTHONPATH is', sys.path, '\n' 
