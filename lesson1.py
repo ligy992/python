@@ -272,3 +272,12 @@ def move(n, a, b, c):
         move(n-1, b, a, c)
 
 move(4, 'A', 'B', 'C')
+
+#切片
+ l=['xiaoli','xiaoming','xiaopeng']
+ print[l[-2:-1]]
+
+l=list(range(100))
+print[l[:10]] #取前十
+print[l[:10:2]]#取前十，每个两个
+print[l[::5]]#每5个取一个
